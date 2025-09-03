@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body div.SectionHeader{
+    text-align: center;
+    padding: 2%;
+}
+
+div.SectionHeader h2{
+    margin-top: 4rem;
+}
+
+body div.CalculatorSection{
+    display: flex;
+    justify-content: center;
+}
+
+div.CalculatorSection div.Calculator{
+     border: 2px ridge black;
+    padding: 4%;
+    width: 90%;
+    margin-top: 3%;
+    max-width: 500px;
+    margin-bottom: 3%;
+}
+
+div.CalculatorSection div.Calculator form{
+    display: table;
+    margin: 0px auto;
+}
+
+div.CalculatorSection div.Calculator form div{
+    display: table-row;
+    width: 100%;
+}
+
+div.Calculator form div label{
+    display: table-cell;
+}
+
+form div input{
+    display: table-cell;
+    padding: 2%;
+    margin-left: 3%;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+div.CalculatorSection div.Calculator div.btndiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div.Calculator div.btndiv button.btn{
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 2% 4%;
+    background-color: black;
+    cursor: pointer;
+}
+
+body div.resultdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
